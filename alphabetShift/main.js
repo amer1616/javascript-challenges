@@ -9,10 +9,11 @@ function alphabetShift(str) {
     let index = 0;
     // check if any elem in inputShifted is not 'z'
     if (inputShifted[i] !== "z") {
-      // get index
+      // get index in alphabet of inputShifted[i]. then shift it one character ahead by adding one.
       index = alphabet.indexOf(inputShifted[i]) + 1;
       console.log(index);
     }
+    //set that iterated element to that of alphabet index
     inputShifted[i] = alphabet[index];
   }
   // inputShifted.map((c, i) => {
@@ -26,6 +27,7 @@ function alphabetShift(str) {
 
   //   console.log(c);
   // });
+  // return the array inputShifted in string
   return inputShifted.join("");
 }
 
