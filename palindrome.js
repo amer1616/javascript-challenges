@@ -1,0 +1,5 @@
+//palindrome: 
+
+function palindrome (str){
+	
+}
