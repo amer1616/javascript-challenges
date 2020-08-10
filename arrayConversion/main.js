@@ -1,4 +1,4 @@
-// for each 2 ood numbers in sequence in array add 2 consecutive values together.
+// for each 2 odd numbers in sequence in array add 2 consecutive values together.
 // else multiply each 2 even numbers together . then get the sum of all values into single value
 // example [1, 2, 3, 4, 5, 6, 7, 8] will be converted into 186
 

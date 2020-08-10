@@ -10,4 +10,18 @@ function arrayReplace(inputArray, elemToReplace, substitutionElem) {
   return inputArray;
 }
 
+function swapArrElem(arr, firstIndToSwap, secondIndToSwap) {
+  let temp = arr[firstIndToSwap];
+  arr[firstIndToSwap] = arr[secondIndToSwap];
+  arr[secondIndToSwap] = temp;
+
+  // es6 solution
+  // [arr[firstIndToSwap], arr[secondIndToSwap]] = [
+  //   arr[secondIndToSwap],
+  //   arr[firstIndToSwap],
+  // ];
+  return arr;
+}
+
 console.log(arrayReplace([1, 2, 1], 1, 3));
+console.log(swapArrElem([2, 4, 6, 9], 1, 3));
